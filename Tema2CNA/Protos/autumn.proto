@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Tema2CNA.Protos";
+
+service Autumn
+{
+	rpc GetAutumnSign(AutumnRequest) returns (AutumnResponse);
+}
+
+message AutumnRequest{
+	string date = 1;
+}
+
+message AutumnResponse{
+	string sign = 1;
+}

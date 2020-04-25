@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+option csharp_namespace = "Tema2CNA.Protos";
+
+service Winter
+{
+	rpc GetWinterSign(WinterRequest) returns (WinterResponse);
+}
+
+message WinterRequest{
+	string date = 1;
+}
+
+message WinterResponse{
+	string sign = 1;
+}

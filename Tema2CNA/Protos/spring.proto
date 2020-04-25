@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Tema2CNA.Protos";
+
+service Spring
+{
+	rpc GetSpringSign(SpringRequest) returns (SpringResponse);
+}
+
+message SpringRequest{
+	string date = 1;
+}
+
+message SpringResponse{
+	string sign = 1;
+}

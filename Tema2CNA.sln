@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema2CNA", "Tema2CNA\Tema2CNA.csproj", "{65C8E60F-792D-4270-B195-07E81F8BB884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{6BCA2C2B-D9D1-44D8-B80B-6B031D39261A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C8E60F-792D-4270-B195-07E81F8BB884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C8E60F-792D-4270-B195-07E81F8BB884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C8E60F-792D-4270-B195-07E81F8BB884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C8E60F-792D-4270-B195-07E81F8BB884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCA2C2B-D9D1-44D8-B80B-6B031D39261A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCA2C2B-D9D1-44D8-B80B-6B031D39261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCA2C2B-D9D1-44D8-B80B-6B031D39261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCA2C2B-D9D1-44D8-B80B-6B031D39261A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29736DA2-EB98-48A4-9385-BE1014035877}
+	EndGlobalSection
+EndGlobal

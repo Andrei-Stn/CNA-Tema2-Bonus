@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Tema2CNA.Protos";
+
+service Summer
+{
+	rpc GetSummerSign(SummerRequest) returns (SummerResponse);
+}
+
+message SummerRequest{
+	string date = 1;
+}
+
+message SummerResponse{
+	string sign = 1;
+}
